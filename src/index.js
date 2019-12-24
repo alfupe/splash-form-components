@@ -1,22 +1,32 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-import styles from './styles.css'
+export class ColoredHeadingOne extends Component {
+    static propTypes = {
+        text: PropTypes.string,
+        color: PropTypes.string
+    };
 
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
+    render() {
+        const {text, color} = this.props;
 
-  render() {
-    const {
-      text
-    } = this.props
+        return (
+            <h1 style={{color}}>{text}</h1>
+        );
+    }
+}
 
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
+export class ColoredHeadingTwo extends Component {
+    static propTypes = {
+        text: PropTypes.string,
+        color: PropTypes.string
+    };
+
+    render() {
+        const {text, color} = this.props;
+
+        return (
+            <h2 style={{color}}>{text}</h2>
+        );
+    }
 }

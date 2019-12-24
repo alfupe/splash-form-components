@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'splash-form-components'
+import {ColoredHeadingOne, ColoredHeadingTwo} from 'splash-form-components'
 
 export default class App extends Component {
-  render () {
-    return (
-      <div>
-        <ExampleComponent text='Modern React component module' />
-      </div>
-    )
-  }
+    render() {
+        return (
+            <div>
+                <ColoredHeadingOne text="Main title" color="blue"/>
+                <ColoredHeadingTwo text="Secondary title" color="red"/>
+            </div>
+        )
+    }
 }
