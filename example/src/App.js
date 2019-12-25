@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import {ColoredHeadingOne, ColoredHeadingTwo} from 'splash-form-components'
+import {ColoredHeadingOne, ColoredHeadingTwo, ColoredHeadingThree} from 'splash-form-components'
 
 export default class App extends Component {
     render() {
@@ -8,6 +8,7 @@ export default class App extends Component {
             <div>
                 <ColoredHeadingOne text="Main title" color="blue"/>
                 <ColoredHeadingTwo text="Secondary title" color="red"/>
+                <ColoredHeadingThree text="Tertiary title" color="purple"/>
             </div>
         )
     }

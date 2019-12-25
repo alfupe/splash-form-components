@@ -1,32 +1,9 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import ColoredHeadingOne from './components/ColoredHeadingOne';
+import ColoredHeadingTwo from './components/ColoredHeadingTwo';
+import ColoredHeadingThree from './components/ColoredHeadingThree';
 
-export class ColoredHeadingOne extends Component {
-    static propTypes = {
-        text: PropTypes.string,
-        color: PropTypes.string
-    };
-
-    render() {
-        const {text, color} = this.props;
-
-        return (
-            <h1 style={{color}}>{text}</h1>
-        );
-    }
-}
-
-export class ColoredHeadingTwo extends Component {
-    static propTypes = {
-        text: PropTypes.string,
-        color: PropTypes.string
-    };
-
-    render() {
-        const {text, color} = this.props;
-
-        return (
-            <h2 style={{color}}>{text}</h2>
-        );
-    }
-}
+export {
+    ColoredHeadingOne,
+    ColoredHeadingTwo,
+    ColoredHeadingThree
+};
