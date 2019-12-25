@@ -1,6 +1,5 @@
-import React, { Component } from 'react'
-
-import {ColoredHeadingOne, ColoredHeadingTwo, ColoredHeadingThree} from 'splash-form-components'
+import React, { Component } from 'react';
+import {ColoredHeadingOne, ColoredHeadingTwo, ColoredHeadingThree} from 'splash-form-components';
 
 export default class App extends Component {
     render() {

@@ -1,6 +1,7 @@
-import ColoredHeadingOne from './components/ColoredHeadingOne';
-import ColoredHeadingTwo from './components/ColoredHeadingTwo';
-import ColoredHeadingThree from './components/ColoredHeadingThree';
+import ColoredHeadingOne from './components/ColoredHeadingOne/ColoredHeadingOne';
+import ColoredHeadingTwo from './components/ColoredHeadingTwo/ColoredHeadingTwo';
+import ColoredHeadingThree from './components/ColoredHeadingThree/ColoredHeadingThree';
+import './index.scss';
 
 export {
     ColoredHeadingOne,
